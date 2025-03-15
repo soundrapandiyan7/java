@@ -2,9 +2,11 @@ import java.util.Scanner;
 public class test1 {
     public static void main(String[] args) {
         Scanner mark = new Scanner(System.in);
+        int i;
+         for(i=0;i<=5;i++){
         System.out.print("Enter the mark:");
       int gg=mark.nextInt();
-     if(gg>=90){
+           if(gg>=90){
             System.out.println("grade A");
         }
         else if(gg>=75){
@@ -16,5 +18,7 @@ public class test1 {
         else{
             System.out.println("grade F");
         }
+
+      }
     }
 }
